@@ -1,0 +1,24 @@
+{
+  "name": "acm-rms",
+  "version": "1.0.0",
+  "description": "American Corner Mtaani Resource Management System",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "seed": "node server/db/seed.js",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "better-sqlite3-session-store": "^0.1.0",
+    "bcryptjs": "^2.4.3",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.4.0",
+    "express-validator": "^7.2.0",
+    "dotenv": "^16.4.5",
+    "csrf-csrf": "^3.0.6",
+    "cookie-parser": "^1.4.6"
+  }
+}
